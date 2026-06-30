@@ -26,3 +26,12 @@ WordPress.org running: behind Cloudflare/WP.com infra
 
 === CVE Research ===
 No recent (May-June 2026) WordPress-specific CVEs found in public databases
+
+=== Aggressive Testing (June 29) ===
+CORS tests: 3 findings (intentional)
+Open redirects: 7 false positives
+Exposed files: 28 probes, 0 real exposures
+.git/HEAD: 0 exposed
+API endpoints: 8 probes, 0 new findings
+GitHub secrets: 0 found
+Result: No exploitable vulnerabilities found
